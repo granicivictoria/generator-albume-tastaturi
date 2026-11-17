@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyAlbums - Albume cu tastaturi mecanice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>KeyAlbums</h1>
+        <p>Universul tastaturilor mecanice</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Albumele mele foto</h2>
+            <p>Creează și organizează colecții de fotografii cu tastaturi mecanice.</p>
+        </section>
+
+        <section class="create">
+            <h2>Creează un album nou</h2>
+            <input type="text" id="albumName" placeholder="Numele albumului">
+            <button onclick="createAlbum()">Creează album</button>
+        </section>
+
+        <section>
+            <h2>Albume disponibile</h2>
+            <div id="albums" class="albums">
+                <p>Nu există încă albume.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>KeyAlbums © 2026 | Proiect individual</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
